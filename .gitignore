@@ -1,0 +1,18 @@
+# Node.js dependencies
+node_modules/
+backend/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Generated files
+.DS_Store
+Thumbs.db
